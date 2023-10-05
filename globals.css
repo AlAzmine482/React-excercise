@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* Set the default background color */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+.section {
+  margin-top: -20px; /* Adjust the value as needed */
+}
+/* Dark Mode Styles */
+.dark {
+  background-color: #121212; /* Change this to your desired dark mode background color */
+  color: white; /* Set text color to white */
+}
+.dark h1,
+.dark h2,
+.dark h3,
+.dark h4,
+.dark h5,
+.dark h6 {
+  color: white;
+}
+
+/* Example: Change text color for all paragraphs */
+.dark p {
+  color: white;
+}
